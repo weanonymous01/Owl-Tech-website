@@ -351,13 +351,6 @@ export const ServicesPage: FC = () => {
           }`}
         >
           <div className="flex flex-col gap-2">
-            <span
-              className={`font-inter text-xs uppercase tracking-[0.35em] transition-colors duration-500 ${
-                theme === "dark" ? "text-white/40" : "text-neutral-500"
-              }`}
-            >
-              Technical Strategy
-            </span>
             <h1 className="font-montserrat text-3xl font-black tracking-tight transition-colors duration-500 md:text-5xl">
               Core Capabilities
             </h1>
