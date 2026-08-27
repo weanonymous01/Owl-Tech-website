@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Plain Black Background -->
+  <rect width="128" height="128" fill="#000000" />
+  
+  <!-- Minimalist Pure White Owl Silhouette -->
+  <path fill="#FFFFFF" d="
+    M 64,32
+    C 54,22 40,16 26,16
+    C 29,36 35,50 37,62
+    C 29,72 26,84 26,96
+    C 38,107 52,112 64,112
+    C 76,112 90,107 102,96
+    C 102,84 99,72 91,62
+    C 93,50 99,36 102,16
+    C 88,16 74,22 64,32 Z
+  " />
+  
+  <!-- Sleek Eye Cutouts -->
+  <circle cx="47" cy="56" r="10.5" fill="#000000" />
+  <circle cx="81" cy="56" r="10.5" fill="#000000" />
+  
+  <!-- Inner White Highlights -->
+  <circle cx="47" cy="56" r="4.5" fill="#FFFFFF" />
+  <circle cx="81" cy="56" r="4.5" fill="#FFFFFF" />
+  
+  <!-- Minimalist Downward Pointing Beak -->
+  <polygon points="58,58 70,58 64,72" fill="#000000" />
+</svg>
