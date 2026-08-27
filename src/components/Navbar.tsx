@@ -23,8 +23,8 @@ export const Navbar: FC<{ className?: string }> = ({ className = "" }) => {
               to={item.path}
               className={`font-inter text-[11px] font-medium tracking-wide whitespace-nowrap transition-colors duration-200 sm:text-xs md:text-sm ${
                 isActive
-                  ? "text-[#E1E0CC] font-semibold"
-                  : "text-[rgba(225,224,204,0.75)] hover:text-[#E1E0CC]"
+                  ? "text-white font-semibold"
+                  : "text-neutral-400 hover:text-white"
               }`}
             >
               {item.name}

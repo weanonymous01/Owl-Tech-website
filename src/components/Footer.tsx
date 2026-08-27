@@ -12,7 +12,7 @@ export const Footer: FC = () => {
             <div>
               {/* Logo */}
               <Link to="/" className="inline-block group">
-                <span className="font-montserrat text-2xl font-bold tracking-tight text-white group-hover:text-[#E1E0CC] transition-colors">
+                <span className="font-montserrat text-2xl font-bold tracking-tight text-white group-hover:text-neutral-300 transition-colors">
                   OWL Tech India
                 </span>
               </Link>

@@ -402,7 +402,7 @@ export const ServicesPage: FC = () => {
             <p
               className="mb-6 text-sm leading-[1.75] sm:text-[15px] md:text-base font-inter"
               style={{
-                color: theme === "dark" ? "rgba(225, 224, 204, 0.7)" : "#4b5563",
+                color: theme === "dark" ? "rgba(255, 255, 255, 0.85)" : "#374151",
               }}
             >
               At OWL Tech, our services are not a menu you pick from and hope for the best. Every capability we offer - Web and Software Development, Business Automation, PR and Brand Positioning, Social Media Management, and AI Infrastructure - is designed to work together as one connected system. We don&apos;t hand you a website and walk away. We build the full stack and we stay until it is working.
@@ -411,7 +411,7 @@ export const ServicesPage: FC = () => {
             <div
               className="space-y-1 text-sm leading-[1.75] sm:text-[15px] md:text-base font-inter"
               style={{
-                color: theme === "dark" ? "rgba(225, 224, 204, 0.7)" : "#4b5563",
+                color: theme === "dark" ? "rgba(255, 255, 255, 0.85)" : "#374151",
               }}
             >
               <p>Every service is built around your business specifically.</p>

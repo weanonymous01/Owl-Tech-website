@@ -18,16 +18,12 @@ export const PrivacyPage: FC = () => {
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
-            className="mb-8 text-lg font-semibold tracking-wide sm:mb-10 sm:text-xl md:text-2xl"
-            style={{ color: "rgba(180, 200, 220, 0.9)" }}
+            className="mb-8 text-lg font-semibold tracking-wide text-white sm:mb-10 sm:text-xl md:text-2xl"
           >
             Privacy Policy
           </motion.h1>
 
-          <div
-            className="space-y-8 text-sm leading-[1.75] sm:text-[15px] md:text-base font-inter"
-            style={{ color: "rgba(225, 224, 204, 0.65)" }}
-          >
+          <div className="space-y-8 text-sm leading-[1.75] sm:text-[15px] md:text-base font-inter text-neutral-300">
             <p>
               Last updated: August 2026. OWL Tech India (&quot;we&quot;, &quot;our&quot;, or &quot;us&quot;) respects your privacy and is committed to protecting the personal information you share with us through our website and services.
             </p>

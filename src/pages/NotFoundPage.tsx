@@ -20,8 +20,7 @@ export const NotFoundPage: FC = () => {
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
-            className="mb-8 text-lg font-semibold tracking-wide sm:mb-10 sm:text-xl md:text-2xl"
-            style={{ color: "rgba(180, 200, 220, 0.9)" }}
+            className="mb-8 text-lg font-semibold tracking-wide text-white sm:mb-10 sm:text-xl md:text-2xl"
           >
             404 - Page Not Found
           </motion.h1>
@@ -30,8 +29,7 @@ export const NotFoundPage: FC = () => {
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.7, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-            className="mb-8 text-sm leading-[1.7] sm:text-[15px] md:text-base"
-            style={{ color: "rgba(225, 224, 204, 0.65)" }}
+            className="mb-8 text-sm leading-[1.7] sm:text-[15px] md:text-base text-neutral-300"
           >
             The page you are looking for doesn&apos;t exist, has been moved, or is temporarily unavailable. Check the URL or return to the homepage to explore OWL Tech India.
           </motion.p>
@@ -43,7 +41,7 @@ export const NotFoundPage: FC = () => {
           >
             <Link
               to="/"
-              className="group inline-flex items-center gap-2 text-sm text-[#E1E0CC]/80 transition-colors hover:text-white underline underline-offset-4 sm:text-[15px] md:text-base"
+              className="group inline-flex items-center gap-2 text-sm text-neutral-300 transition-colors hover:text-white underline underline-offset-4 sm:text-[15px] md:text-base"
             >
               <span>Back to Home</span>
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />

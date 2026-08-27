@@ -94,7 +94,7 @@ export const ContactPage: FC = () => {
             >
               {submitted ? (
                 <div className="rounded-2xl border border-neutral-800 bg-[#111217] p-8 text-center">
-                  <CheckCircle className="mx-auto h-12 w-12 text-[#E1E0CC] mb-4" />
+                  <CheckCircle className="mx-auto h-12 w-12 text-white mb-4" />
                   <h3 className="text-xl font-bold text-white mb-2">Message Sent</h3>
                   <p className="text-sm text-neutral-400 mb-6">
                     Thank you! We have received your message and will respond within 24 hours.
@@ -104,7 +104,7 @@ export const ContactPage: FC = () => {
                       setSubmitted(false);
                       setFormData({ name: "", email: "", phone: "", message: "" });
                     }}
-                    className="text-xs font-semibold text-[#E1E0CC] underline underline-offset-4 hover:text-white"
+                    className="text-xs font-semibold text-white underline underline-offset-4 hover:text-neutral-300"
                   >
                     Send another message
                   </button>

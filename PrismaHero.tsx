@@ -175,16 +175,15 @@ const PrismaHero: FC = () => {
       </section>
 
       {/* Strategy Meets Execution Section */}
-      <section className="w-full bg-black px-6 py-16 sm:px-10 sm:py-20 md:px-16 md:py-24 lg:px-20 lg:py-28">
-        <div className="grid grid-cols-1 lg:grid-cols-2">
+      <section className="w-full bg-black px-6 py-16 sm:px-10 sm:py-20 md:px-16 md:py-24 lg:px-20 lg:py-28 text-white">
+        <div className="max-w-4xl xl:max-w-5xl">
           <div>
             <motion.h2
               initial={{ y: 20, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
-              className="mb-8 text-lg font-semibold tracking-wide sm:mb-10 sm:text-xl md:text-2xl"
-              style={{ color: "rgba(180, 200, 220, 0.9)" }}
+              className="mb-8 text-lg font-semibold tracking-wide text-white sm:mb-10 sm:text-xl md:text-2xl"
             >
               Strategy Meets Execution
             </motion.h2>
@@ -194,8 +193,7 @@ const PrismaHero: FC = () => {
               whileInView={{ y: 0, opacity: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.7, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-              className="mb-6 text-sm leading-[1.7] sm:text-[15px] md:text-base"
-              style={{ color: "rgba(225, 224, 204, 0.65)" }}
+              className="mb-6 text-sm leading-[1.7] sm:text-[15px] md:text-base text-neutral-300"
             >
               At OWL Tech, we don&apos;t believe in half-measures. We partner with businesses from early-stage founders to established enterprises - and plug in the exact technology, systems, and strategy they need to grow. Whether you&apos;re launching, scaling, or rebuilding, we bring the tools, the team, and the thinking to make it happen.
             </motion.p>
@@ -205,14 +203,9 @@ const PrismaHero: FC = () => {
               whileInView={{ y: 0, opacity: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.7, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
-              className="mb-8 text-sm leading-[1.7] sm:text-[15px] md:text-base"
-              style={{ color: "rgba(225, 224, 204, 0.65)" }}
+              className="mb-8 text-sm leading-[1.7] sm:text-[15px] md:text-base text-neutral-300"
             >
-              Our work spans three core areas -{" "}
-              <span className="font-bold" style={{ color: "#E1E0CC" }}>Digital Presence</span>,{" "}
-              <span className="font-bold" style={{ color: "#E1E0CC" }}>Business Automation</span>, and{" "}
-              <span className="font-bold" style={{ color: "#E1E0CC" }}>Brand Growth</span>.{" "}
-              We don&apos;t pick one and ignore the rest. Every client gets all three working together, built around their business, executed under one roof.
+              Our work spans three core areas - Digital Presence, Business Automation, and Brand Growth. We don&apos;t pick one and ignore the rest. Every client gets all three working together, built around their business, executed under one roof.
             </motion.p>
 
             <motion.p
@@ -220,8 +213,7 @@ const PrismaHero: FC = () => {
               whileInView={{ y: 0, opacity: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.7, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
-              className="text-sm leading-[1.7] sm:text-[15px] md:text-base font-medium"
-              style={{ color: "#E1E0CC" }}
+              className="text-sm leading-[1.7] sm:text-[15px] md:text-base font-medium text-white"
             >
               One partner for every capability your business needs. Zero compromise on execution, strategy, or results.
             </motion.p>
